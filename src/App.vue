@@ -12,7 +12,7 @@ const products = ref([
   { id: 7, name: 'BURNING ENDURES', category: 'GRAPHIC', price: '20000', rating: '4.8 (91)', image: '/images/IMG_3351.png', tag: 'Nouveau' },
   { id: 8, name: 'MIDNIGHT CLUB', category: 'BIKER', price: '20000', rating: '4.7 (64)', image: '/images/IMG_3355 (1).png', tag: 'Vintage' },
   { id: 9, name: 'ENFANT RICHES DEPRIMES', category: 'DARK', price: '20000', rating: '4.9 (82)', image: '/images/IMG_3358.png', tag: 'Rare' },
-  { id: 10, name: 'GALLERY DEPT', category: 'REPRESENT', price: '2000', rating: '4.8 (115)', image: '/images/IMG_3366.png', tag: 'Nouveau' }, 
+  { id: 10, name: 'GALLERY DEPT', category: 'REPRESENT', price: '20000', rating: '4.8 (115)', image: '/images/IMG_3366.png', tag: 'Nouveau' }, 
 ]);
 
 // États de sélection et UI
@@ -255,4 +255,4 @@ const whatsappLink = computed(() => {
 
 @keyframes bounce-slow { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
 .animate-bounce-slow { animation: bounce-slow 3s infinite ease-in-out; }
-</style>
+</style> 
